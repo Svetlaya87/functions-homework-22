@@ -24,7 +24,7 @@ function imt() {
 
     if ( bodyMassIndex < 16.5 ) {
         
-        resultPlace.style.color= "green";
+        resultPlace.style.color= "MediumSeaGreen";
         resultPlace.innerHTML = `Индекс массы тела ${bodyMassIndex}. Он означает: выраженный дефицит массы тела`;
         //console.log(`Индекс массы тела ${bodyMassIndex}. Это меньше 16.5. Выраженный дефицит массы тела `);
     }
